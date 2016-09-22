@@ -1,0 +1,46 @@
+﻿Build started 22/2/2015 8:22:31 μμ.
+     1>Project "c:\Users\konstantina\documents\visual studio 2012\Projects\filter\filter\filter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Block.cpp Blur_FIlter.cpp Color_Filter.cpp cpi_format.cpp Diff_Filter.cpp Grey_Filter.cpp Image.cpp Logger.cpp Median_Filter.cpp ppm_format.cpp rle_format.cpp Source.cpp
+         Source.cpp
+         rle_format.cpp
+     1>c:\users\konstantina\documents\visual studio 2012\projects\filter\filter\rle_format.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+         ppm_format.cpp
+         Median_Filter.cpp
+     1>c:\users\konstantina\documents\visual studio 2012\projects\filter\filter\median_filter.cpp(52): warning C4244: '=' : conversion from 'float' to 'imaging::Component', possible loss of data
+     1>c:\users\konstantina\documents\visual studio 2012\projects\filter\filter\median_filter.cpp(53): warning C4244: '=' : conversion from 'float' to 'imaging::Component', possible loss of data
+     1>c:\users\konstantina\documents\visual studio 2012\projects\filter\filter\median_filter.cpp(54): warning C4244: '=' : conversion from 'float' to 'imaging::Component', possible loss of data
+         Logger.cpp
+         Image.cpp
+         Grey_Filter.cpp
+         Diff_Filter.cpp
+     1>c:\users\konstantina\documents\visual studio 2012\projects\filter\filter\diff_filter.cpp(52): warning C4244: '=' : conversion from 'float' to 'imaging::Component', possible loss of data
+     1>c:\users\konstantina\documents\visual studio 2012\projects\filter\filter\diff_filter.cpp(53): warning C4244: '=' : conversion from 'float' to 'imaging::Component', possible loss of data
+     1>c:\users\konstantina\documents\visual studio 2012\projects\filter\filter\diff_filter.cpp(54): warning C4244: '=' : conversion from 'float' to 'imaging::Component', possible loss of data
+         cpi_format.cpp
+         Color_Filter.cpp
+         Blur_FIlter.cpp
+     1>c:\users\konstantina\documents\visual studio 2012\projects\filter\filter\blur_filter.cpp(39): warning C4244: '=' : conversion from 'float' to 'imaging::Component', possible loss of data
+     1>c:\users\konstantina\documents\visual studio 2012\projects\filter\filter\blur_filter.cpp(40): warning C4244: '=' : conversion from 'float' to 'imaging::Component', possible loss of data
+     1>c:\users\konstantina\documents\visual studio 2012\projects\filter\filter\blur_filter.cpp(41): warning C4244: '=' : conversion from 'float' to 'imaging::Component', possible loss of data
+         Block.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\konstantina\documents\visual studio 2012\Projects\filter\Debug\filter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\konstantina\documents\visual studio 2012\Projects\filter\Debug\filter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\konstantina\documents\visual studio 2012\Projects\filter\Debug\filter.lib" /MACHINE:X86 Debug\Block.obj
+         Debug\Blur_FIlter.obj
+         Debug\Color_Filter.obj
+         Debug\cpi_format.obj
+         Debug\Diff_Filter.obj
+         Debug\Grey_Filter.obj
+         Debug\Image.obj
+         Debug\Logger.obj
+         Debug\Median_Filter.obj
+         Debug\ppm_format.obj
+         Debug\rle_format.obj
+         Debug\Source.obj
+         filter.vcxproj -> c:\users\konstantina\documents\visual studio 2012\Projects\filter\Debug\filter.exe
+     1>Done Building Project "c:\Users\konstantina\documents\visual studio 2012\Projects\filter\filter\filter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.92
